@@ -27,6 +27,9 @@
         <service
             android:name=".service.MyForegroundService"
             android:exported="false"/>
+
+        <service android:name=".service.BoundService"
+            android:exported="false"/>
     </application>
 
 </manifest>
